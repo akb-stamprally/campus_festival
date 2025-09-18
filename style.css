@@ -1,0 +1,18 @@
+body {
+    /* 背景画像の設定 */
+    background-image: url('path/to/background-image.png');
+
+    /* 画像の繰り返しを防ぐ */
+    background-repeat: no-repeat;
+
+    /* 画像を中央に配置 */
+    background-position: center center;
+
+    /* 画面全体を覆うように拡大・縮小 */
+    background-size: contain;
+
+    /* ページのスクロール時に画像を固定 */
+    background-attachment: fixed;
+    
+}
+
