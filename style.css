@@ -1,0 +1,29 @@
+/* ページの背景画像を設定するスタイル */
+body {
+    background-image: url('assets/background-image.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    /* UI調整のための基本フォントサイズもここに含める */
+    font-size: 16px;
+}
+
+/* --- UI要素のサイズを調整するスタイル --- */
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+}
+
+button {
+    width: 60%;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px 0;
+}
